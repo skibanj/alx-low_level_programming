@@ -4,8 +4,9 @@
 /* more headers goes there */
 
 /**
- * A program that prints random numbers
+ * main - A program that prints random numbers
  *
+ * Return: Always 0 (Success)
  */
 
 int main(void)
