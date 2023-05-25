@@ -1,22 +1,20 @@
 #include "main.h"
 
 /**
- * print alphabeth
+ * print_alphabet - Prints complete alphabet
  *
  * Return: Always 0 (Success)
  */
 void print_alphabet(void)
 
 {
-	char a = 'a';
+	char c;
 
-	while (a <= 'z')
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		S
-		a++;
+	_putchar(c);
 	}
-
-	_putchar('\n');
-
+	
+	_putchar('\n')
 	return (0);
 }
