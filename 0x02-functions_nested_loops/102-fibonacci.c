@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - a program that prints the first 50 Fibonacci numbers
  *
  * Return: Always 0 (Success)
  */
