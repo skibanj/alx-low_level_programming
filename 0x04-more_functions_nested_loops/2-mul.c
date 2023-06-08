@@ -2,18 +2,16 @@
 
 /**
  * mul - a function that multiplies two integers
- * @int a, @ int b: our main character
+ * @a: first number to multiply
+ * @b: second number to multiply
+ *
  * Return: Always 0 (Success)
  */
 
-int mul(int a, int b){
-	int num1 = 98;
-	int num2 = 1024;
-	int num3 = -402;
-	int num4 = -4096;
+int mul(int a, int b)
 
-	int result1 = num1 * num2;
-	int result2 = num3 * num4;
+{
+	int result = a * b;
 
-	putchar('%d\n%d', result1, result2);
+	return (result);
 }
