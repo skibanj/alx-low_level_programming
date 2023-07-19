@@ -1,9 +1,6 @@
-#include <stdio.h>
-#include "mymacros.h"
+#ifndef MYMACROS_H
+#define MYMACROS_H
 
-int main(){
-	int buffer[SIZE];
-	printf("The size of the buffer is: %d\n", SIZE);
+#define SIZE 1024
 
-	return (0);
-}
+#endif /* MYMACROS_H */
