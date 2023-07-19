@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include "mymacros.h"
 
-int main(){
-	printf("This program was compiled from the file: %s\n", __SIZE__);
+
+int main(void){
+	printf("This program was compiled from the file: %s\n", __FILE__);
 
 	return (0);
 }
