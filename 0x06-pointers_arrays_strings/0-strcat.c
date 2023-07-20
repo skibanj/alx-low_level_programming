@@ -9,22 +9,12 @@
 
 char *_strcat(char *dest, char *src)
 {
-	int i, j;
+	char dest[100] = "Hello, ";
+	const char src = "world!";
 
-	i = 0;
-	while (dest[i] != '\0')
-	{
-		i++;
-	}
+	_strcat(dest, src);
 
-	j = 0;
-	while (src[i] != '\0')
-	{
-		dest[i] = src[i];
-		j++;
-		j++;
-	}
+	printf("%s\n", dest);
 
-	dest[i] = '\0';
 	return (dest);
 }
